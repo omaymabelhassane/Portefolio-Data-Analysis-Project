@@ -1,17 +1,19 @@
-## 🎯 Étape 1 – Traduction des questions business en KPI actionnables
+## 🎯 Étape 1 — Traduire les questions business en KPI actionnables
 
 > **Objectif :** comprendre les enjeux métiers de Netflix et transformer les questions stratégiques en indicateurs de performance clairs et mesurables.
 
 ---
 
-### 💼 1. Contexte métier
+### 💼 Contexte métier
 
 Netflix cherche à :
+
 - Comprendre **les tendances de production et de diffusion** dans son catalogue mondial.  
 - Identifier **les zones géographiques** et **les genres** qui contribuent le plus à la croissance.  
 - Adapter ses **décisions d’investissement** en contenu (production, achat, marketing).  
 
-La donnée brute du catalogue permet donc de **répondre à des questions clés** :
+Ces données permettent donc de répondre à des questions clés :
+
 - Quels **types de contenus** (films ou séries) dominent la plateforme ?  
 - Quels **pays** produisent le plus de titres et comment cela évolue-t-il ?  
 - Quels **genres** attirent le plus l’attention du public ?  
@@ -20,50 +22,51 @@ La donnée brute du catalogue permet donc de **répondre à des questions clés*
 
 ---
 
-### 🧩 2. Questions business → KPI associés
+### 🧩 Questions business ➜ KPI associés
 
-| Question business | Indicateur clé (KPI) | Objectif |
-|--------------------|----------------------|-----------|
-| Quelle est la répartition entre films et séries ? | **% de séries / % de films** | Identifier la stratégie de contenu dominante |
-| Quels pays produisent le plus de titres ? | **Nombre de titres par pays** | Visualiser la concentration géographique |
-| Quels genres dominent sur Netflix ? | **Top 5 des genres les plus présents** | Comprendre les préférences éditoriales |
-| Quelle est la tendance des ajouts dans le temps ? | **Nombre de nouveaux titres par année** | Suivre la croissance du catalogue |
-| Quelle est la cible principale des contenus ? | **Répartition par rating (TV-MA, PG, etc.)** | Identifier les audiences visées |
-| Netflix se diversifie-t-il géographiquement ? | **Nombre de pays uniques par année / indice de diversité** | Évaluer la stratégie d’expansion |
-| Quelle est la durée moyenne des films/séries ? | **Durée moyenne (min/saisons)** | Analyser le format de contenu préféré |
+| 📝 Question business | 📊 Indicateur clé (KPI) | 🎯 Objectif |
+|----------------------|------------------------|-------------|
+| Quelle est la répartition entre films et séries ? | % de séries / % de films | Identifier la stratégie de contenu dominante |
+| Quels pays produisent le plus de titres ? | Nombre de titres par pays | Visualiser la concentration géographique |
+| Quels genres dominent sur Netflix ? | Top 5 des genres les plus présents | Comprendre les préférences éditoriales |
+| Quelle est la tendance des ajouts dans le temps ? | Nombre de nouveaux titres par année | Suivre la croissance du catalogue |
+| Quelle est la cible principale des contenus ? | Répartition par rating (TV-MA, PG, etc.) | Identifier les audiences visées |
+| Netflix se diversifie-t-il géographiquement ? | Nombre de pays uniques par année / indice de diversité | Évaluer la stratégie d’expansion |
+| Quelle est la durée moyenne des films/séries ? | Durée moyenne (minutes/saisons) | Analyser le format de contenu préféré |
 
 ---
 
-### 🧠 3. Rôle du Data Analyst à cette étape
+### 🧠 Rôle du Data Analyst à cette étape
 
-Le rôle n’est pas encore technique, mais **analytique et stratégique** :
-- Reformuler les besoins en **questions mesurables**.  
+Ton rôle ici n’est pas encore technique, mais **analytique et stratégique** :
+
+- Reformuler les besoins métiers en **questions mesurables**.  
 - Sélectionner les **variables pertinentes** dans le dataset.  
 - Définir les **KPI finaux** à suivre dans le dashboard.  
-- Préparer la **feuille de route analytique** (cleaning → EDA → visualisation → insights).
+- Préparer la **feuille de route analytique** du projet.
 
 ---
 
-### ⚙️ 4. Sortie attendue de cette étape
+### ⚙️ Livrable attendu
 
-> ✅ Une liste claire et validée de KPI qui guideront tout le reste du projet.
+> ✅ Une **liste claire et validée de KPI** qui guideront tout le reste du projet.
 
-**Livrable :**
-- Tableau des KPI (comme ci-dessus).  
-- Documentation succincte du raisonnement métier.  
+**Sortie de cette étape :**
+- Tableau des KPI (ci-dessus).  
+- Documentation du raisonnement métier.  
 - Plan d’analyse pour les étapes suivantes.
 
 ---
 
-### 🧭 5. Exemple de feuille de route analytique
+### 🧭 Feuille de route analytique
 
-1️⃣ **Cadrage** : définition des KPI clés (étape actuelle)  
-2️⃣ **Préparation** : nettoyage et enrichissement des données  
-3️⃣ **Exploration** : visualisations et tendances (Power BI / Python)  
-4️⃣ **Synthèse** : formulation des insights et recommandations stratégiques  
+1️⃣ **Cadrage** — Définir les KPI et comprendre les objectifs business.  
+2️⃣ **Préparation** — Nettoyer et enrichir les données.  
+3️⃣ **Exploration** — Analyser et visualiser les tendances (Python / Power BI).  
+4️⃣ **Synthèse** — Formuler les insights et recommandations stratégiques.
 
 ---
 
 > 💡 **Valeur ajoutée :**  
-> Cette étape démontre ta capacité à **comprendre les besoins business**, à **penser comme un décideur**, et à **structurer l’analyse autour d’objectifs clairs**.  
-> C’est ce qui différencie un simple technicien d’un vrai **Data Analyst orienté impact**.
+> Cette étape prouve ta capacité à **penser comme une analyste stratégique** — à relier la donnée à un objectif métier.  
+> Tu ne produis pas seulement des chiffres, tu **crées du sens pour la décision**.
