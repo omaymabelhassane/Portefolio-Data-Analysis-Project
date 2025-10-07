@@ -115,4 +115,4 @@ Netflix souhaite mieux comprendre :
 | Diversité géographique | `country`, `year_added` |
 
 
-📁 **Étape suivante :** [Préparation et nettoyage des données →](./netflix_data_analysis.md)
+📁 **Étape suivante :** [Préparation et nettoyage des données →](./netflix_data_analysis.ipynb)
