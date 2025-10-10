@@ -58,9 +58,8 @@ il **crée du sens**, **facilite la décision** et **transforme la complexité e
 ---
 
 ## 📬 Me contacter
-📧 **Email :** omayma.belhassane@email.com  
-💼 **LinkedIn :** [linkedin.com/in/omayma-belhassane](https://www.linkedin.com/in/omayma-belhassane)  
-📊 **Portfolio GitHub :** [github.com/omaymabelhassane](https://github.com/omaymabelhassane)  
+📧 **Email :** businessomayma@gmail.com  
+💼 **LinkedIn :** [linkedin.com/in/omayma-belhassane](https://www.linkedin.com/in/omayma-belhassane-businessanalyst)  
 
 ---
 
