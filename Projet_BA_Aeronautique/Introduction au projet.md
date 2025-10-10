@@ -5,86 +5,118 @@
 
 ## 🎯 Contexte du projet  
 
-Dans le secteur aéronautique, la maintenance des avions représente un enjeu stratégique majeur.  
-Chaque minute d’immobilisation d’un appareil entraîne des **coûts élevés** et un **impact direct sur la disponibilité de la flotte**.  
+La maintenance aéronautique constitue un pilier central de la sécurité et de la performance opérationnelle des compagnies aériennes.  
+Chaque intervention non planifiée engendre des coûts élevés, une immobilisation imprévue et des répercussions sur la satisfaction client.  
 
-Aujourd’hui, une grande partie des données de maintenance est encore consignée sous **forme de rapports textuels** : description du problème, action corrective effectuée, observations techniques.  
-Ces informations sont riches, mais **sous-exploitées**, faute d’un système de catégorisation et d’analyse structurée.
+Aujourd’hui, la majorité des rapports de maintenance sont encore rédigés manuellement sous forme textuelle.  
+Ces données, bien que riches, sont **non structurées, hétérogènes et difficilement exploitables** pour l’analyse ou la planification.  
+Elles représentent pourtant un levier essentiel pour développer des modèles de **maintenance prédictive**, capables d’anticiper les défaillances avant qu’elles ne surviennent.
 
-L’objectif de ce projet est de **proposer une digitalisation du processus de suivi de maintenance** afin de permettre :  
-- une **meilleure traçabilité** des incidents,  
-- une **analyse récurrente des pannes** pour orienter la maintenance préventive,  
-- et, à terme, une intégration possible dans un **système de maintenance prédictive**.
-
----
-
-## 🧩 Problématique  
-
-> Comment transformer des rapports de maintenance textuels en informations exploitables permettant d’anticiper les pannes et d’optimiser les interventions techniques ?  
+Ce projet a pour objectif de **simuler une mission de Business Analysis dans le secteur aéronautique**, inspirée des pratiques Capgemini Engineering, visant à :
+- Identifier les **besoins métiers** liés à la digitalisation du suivi de maintenance,  
+- Élaborer un **business case complet** (besoins, stratégie, analyse de la situation, risques),  
+- Définir les **exigences fonctionnelles et non fonctionnelles** de la solution cible,  
+- Et modéliser la transition vers un processus de **maintenance digitalisé et prédictif**.
 
 ---
 
-## 🛠️ Objectifs du projet  
+## ✅ Vision et enjeux  
 
-1. **Analyser le processus actuel (AS-IS)** de traitement des rapports de maintenance.  
-2. **Identifier les points de douleur** liés à la collecte et à l’exploitation de ces données.  
-3. **Définir un processus cible (TO-BE)** intégrant une gestion numérique des incidents.  
-4. **Spécifier les besoins fonctionnels** pour une solution digitale de suivi.  
-5. **Formaliser des user stories** et une **matrice d’exigences** destinées à l’équipe projet.  
+> **Vision du projet :** Permettre aux compagnies aériennes et aux constructeurs comme Airbus de transformer leurs données de maintenance textuelles en informations structurées, traçables et exploitables, afin de renforcer la performance opérationnelle et la fiabilité des appareils.
+
+**Enjeux principaux :**
+- Centraliser et structurer les rapports de maintenance existants.  
+- Identifier les causes récurrentes de pannes à partir des données textuelles.  
+- Réduire les temps d’immobilisation des appareils grâce à une meilleure planification.  
+- Favoriser la mise en place d’une maintenance prédictive basée sur la donnée.
+
+---
+
+## 🧩 Objectifs généraux du projet  
+
+1. **Compréhension du besoin métier** : identification des problèmes actuels, des besoins et des parties prenantes.  
+2. **Analyse de la situation (AS-IS)** : cartographie du processus de maintenance actuel et des points de douleur.  
+3. **Élaboration d’un business case** : définition des objectifs, risques, hypothèses, contraintes et approches possibles.  
+4. **Définition du processus cible (TO-BE)** : proposition d’une solution digitalisée et structurée.  
+5. **Formalisation des exigences** : rédaction des exigences fonctionnelles, de transition et de qualité.  
+6. **Modélisation et restitution** : documentation finale, mapping des exigences, KPIs et feuille de route.
+
+---
+
+## 👥 Parties prenantes clés  
+
+| Acteur | Rôle | Attentes |
+|--------|------|-----------|
+| **Direction Maintenance** | Pilote la transformation | Optimiser la performance et réduire les coûts d’immobilisation |
+| **Techniciens aéronautiques** | Exécutent les opérations de maintenance | Simplifier la saisie et le suivi des interventions |
+| **Responsables de flotte** | Suivi des performances et priorisation | Disposer de tableaux de bord fiables |
+| **Service Qualité / Sécurité** | Supervise la conformité et la traçabilité | Accès aux historiques complets et auditable |
+| **Business Analyst** | Intermédiaire entre métiers et IT | Définir, modéliser et documenter les besoins |
+| **Équipe IT / Data** | Conçoit la solution technique | Bénéficier d’exigences claires et testables |
 
 ---
 
 ## 📚 Source de données  
 
-Le projet s’appuie sur un dataset issu d’un corpus de rapports de maintenance aéronautique comprenant :  
-- plus de **6 000 entrées**,  
-- trois variables principales : `IDENT`, `PROBLEM`, `ACTION`.  
+Le projet repose sur un dataset de plus de **6 000 rapports de maintenance aéronautique** comprenant :  
+- `IDENT` : identifiant unique de l’intervention,  
+- `PROBLEM` : description textuelle du problème rencontré,  
+- `ACTION` : action corrective réalisée par le technicien.  
 
-Ces données reproduisent la structure des enregistrements terrain utilisés par les équipes de maintenance.  
-Elles permettent de **modéliser le processus métier** et de **simuler la phase d’analyse fonctionnelle** menée dans un projet industriel réel.
+Ces données serviront à illustrer la **réalité terrain** et à alimenter les **analyses métier** menant à la définition des exigences et à la construction du business case.
 
 ---
 
 ## 🧠 Approche méthodologique  
 
-Le projet suit une démarche classique de **Business Analysis**, inspirée du cadre BABOK 
+La démarche s’appuie sur les standards du **BABOK (Business Analysis Body of Knowledge)**
+Elle comprend les étapes suivantes :
 
-1. **Cadrage du besoin** – compréhension du contexte et des enjeux.  
-2. **Analyse du processus métier** – modélisation AS-IS / TO-BE.  
-3. **Spécification fonctionnelle** – définition des exigences et user stories.  
-4. **Proposition de solution** – vision fonctionnelle d’un système digitalisé de gestion de maintenance.  
+1. **Identification et analyse des besoins métiers**  
+2. **Élaboration du business case** (objectifs, risques, hypothèses, contraintes, alternatives)  
+3. **Analyse de la situation actuelle (AS-IS)**  
+4. **Définition du processus cible (TO-BE)**  
+5. **Définition et modélisation des exigences** (fonctionnelles, non fonctionnelles, de qualité, de transition)  
+6. **Élaboration d’une feuille de route fonctionnelle et KPI**  
+7. **Rédaction des livrables** (cadrage, exigences, user stories, matrices, processus)
 
 ---
 
-## 📈 Livrables produits  
+## 📈 Livrables du projet  
 
-| Livrable | Description | Format |
-|-----------|--------------|--------|
-| **Document de cadrage** | Présente le contexte, les objectifs et les indicateurs de succès du projet | PDF |
-| **Processus AS-IS / TO-BE** | Schéma BPMN du processus actuel et du processus cible | PNG |
-| **Matrice d’exigences fonctionnelles** | Liste détaillée des besoins utilisateurs et techniques | Excel |
-| **User Stories & Backlog** | Description des fonctionnalités clés à implémenter | Excel / Markdown |
+| Étape | Livrable | Objectif | Format |
+|--------|-----------|-----------|---------|
+| 1 | **Identification du besoin** | Comprendre les enjeux métiers | Markdown |
+| 2 | **Document de cadrage** | Formaliser le contexte, objectifs et périmètre | Markdown / PDF |
+| 3 | **Business Case** | Démontrer la valeur métier et les approches possibles | Markdown / PDF |
+| 4 | **Processus AS-IS / TO-BE** | Visualiser les flux actuels et futurs | BPMN / PNG |
+| 5 | **Matrice d’exigences fonctionnelles** | Décrire les besoins métier et techniques | Excel |
+| 6 | **User Stories & Backlog** | Formaliser les fonctionnalités clés | Markdown / Excel |
+| 7 | **KPI et feuille de route** | Mesurer les résultats et piloter la transformation | Markdown / Power BI |
 
 ---
 
 ## 💼 Compétences mobilisées  
 
-- **Business Analysis** : recueil du besoin, formalisation, modélisation.  
-- **Process Design** : création de diagrammes BPMN, analyse des flux.  
-- **Documentation fonctionnelle** : rédaction de livrables projet (cadrage, exigences, backlog).  
-- **Culture industrielle** : compréhension des enjeux de maintenance aéronautique et de la transformation digitale dans ce secteur.
+- **Business Analysis & Documentation fonctionnelle**  
+- **Process Design (BPMN, diagrammes de flux)**  
+- **Gestion des exigences & storytelling métier**  
+- **Analyse des données textuelles (maintenance reports)**  
+- **Méthodologie Capgemini / BABOK / Agile BA**  
 
 ---
 
-## 🚀 Résultats attendus  
+## 🚀 Résultat attendu  
 
-- Amélioration de la traçabilité des pannes.  
-- Réduction des délais de traitement des incidents.  
-- Capitalisation des données historiques pour la maintenance prédictive.  
-- Mise en place d’une base fonctionnelle solide pour une future solution numérique (Power Apps / Power BI / ERP).  
+La digitalisation des rapports de maintenance permettra :  
+- d’**améliorer la traçabilité** et la fiabilité des interventions,  
+- de **réduire les délais de traitement**,  
+- d’**identifier les causes récurrentes** de panne,  
+- et de **préparer l’intégration** d’une solution de maintenance prédictive.  
+
+Ce projet illustre la capacité d’un Business Analyst à **faire le lien entre la donnée terrain, le besoin métier et la stratégie d’entreprise**, dans un contexte industriel complexe comme celui d’**Airbus.
 
 ---
-
 ## 🧾 Auteur  
 
 **[Omayma BELHASSANE]**  
