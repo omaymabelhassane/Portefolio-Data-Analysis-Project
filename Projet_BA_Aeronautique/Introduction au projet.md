@@ -116,6 +116,18 @@ La digitalisation des rapports de maintenance permettra :
 
 Ce projet illustre la capacité d’un Business Analyst à **faire le lien entre la donnée terrain, le besoin métier et la stratégie d’entreprise**, dans un contexte industriel complexe comme celui d’**Airbus.
 
+## 📄 Livrables
+- [01 - Identification du besoin](01_Identification_du_Besoin/Identification_du_Besoin.md)
+- [02 - Document de cadrage](02_Cadrage/Cadrage_Projet_Maintenance_Aeronautique.md)
+- [03 - Business Case](03_Business_Case/Business_Case_Maintenance_Aeronautique.md)
+- [04 - Processus métier](04_Processus_Metier/Description_Processus_ASIS_TOBE.md)
+- [05 - Exigences](05_Exigences/Exigences_Non_Fonctionnelles.md)
+- [06 - User Stories & Backlog](06_UserStories_Backlog/UserStories_Maintenance_Aeronautique.md)
+- [07 - KPI & Feuille de route](07_KPI_Feuille_de_Route/KPI_Maintenance_Aeronautique.md)
+- [08 - Annexes](08_Annexes/Sources_de_Donnees.md)
+
+
+
 ---
 ## 🧾 Auteur  
 
