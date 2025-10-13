@@ -64,7 +64,4 @@ Ce projet m’a permis de :
 
 Ce cas d’usage démontre ma capacité à **structurer et piloter un projet de transformation digitale** dans un environnement industriel exigeant.
 
----
-
-## 📂 Structure du Dépôt
 
