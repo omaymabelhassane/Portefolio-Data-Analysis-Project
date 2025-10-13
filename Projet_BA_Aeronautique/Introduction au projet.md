@@ -136,3 +136,4 @@ Business Analyst en reconversion – spécialisation Industrie & Aéronautique
 📍 Projet sur la base de vrais datas (https://www.kaggle.com/datasets/merishnasuwal/aircraft-historical-maintenance-dataset)
 
 ---
+
