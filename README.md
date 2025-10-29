@@ -25,7 +25,7 @@ Je recherche actuellement un **stage** ou une **alternance / poste** en **Busine
 | **Data Visualisation** | Power BI (DAX, Modélisation, KPI Design), Tableau (bases) |
 | **Data Cleaning & Analysis** | Excel (avancé), Power Query, Data Wrangling |
 | **Business Intelligence** | Création de dashboards interactifs, indicateurs de performance, storytelling visuel |
-| **Outils CRM / Marketing Data** | Brevo, Google Sheets, automatisations |
+| **Outils CRM / Marketing Data** | Brevo, SalesForce, Google Sheets, automatisations |
 
 ---
 
